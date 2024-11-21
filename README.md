@@ -12,10 +12,27 @@ Sumario:
 O desenvolvimento começou com o planejamento da atividade, tendo reuniões com as partes envolvidas, até se dar o início da criação da plataforma. As requisições feitas se deram ao visual, 
 usabilidade e praticidade das ferramentas disponíveis.
 
+
 Resultado:
 Após a utilização da plataforma nos momentos de testes, foi decretado a utilização definitiva do projeto nas próximas reuniões da comunidade, devido a sua alta eficacio com relação a praticidade e desempenho, 
 por ser web, se tem uma facilidade em encontrar um ambiente
 em que seja possível utilizar a ferramenta.
+
+Pacotes instalados:
+
+Install-Package Microsoft.EntityFrameworkCore
+
+Install-Package Microsoft.EntityFrameworkCore.Design
+
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+
+Comandos do Migration executados para criação do banco:
+
+Add-Migration Criacao-Inicial -Context Contexto
+
+Update-database -Context Contexto
+
 
 Imagens (Exemplos):
 
